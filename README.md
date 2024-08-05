@@ -1,5 +1,7 @@
 # ESP32 Mail Notifier
  Getting digital mail when you have analog mail!
+
+A reed sensor is connected to a LILYGO T8-C3 ESP32-C3 dev board, and wakes from deep sleep when the reed sensor is opened. Whenever that happens it connects to WiFi, sends en email, and goes to deep sleep again.
  
 For a full devlog about this project, [check my website](https://spectracoder.com/blog/post/getting-digital-mail-when-you-have-analog-mail).
  
